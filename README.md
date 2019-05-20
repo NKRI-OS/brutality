@@ -3,7 +3,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 #### What is this?
-A fuzzer for any GET entries
+A 'brutality' fuzzer for any GET entries
 
 #### Features
 - [x] Multi-threading on demand
@@ -13,7 +13,6 @@ A fuzzer for any GET entries
 - [x] Hide results by return code, word numbers
 - [x] Proxy support
 - [x] Big wordlist
-- [x] Colored
 
 #### Usages
 - Install
@@ -40,5 +39,7 @@ python brutality.py -u 'http://192.168.1.1/brute.php?username=admin&password=FUZ
 ```
 
 #### Images
-![Helper](/demo/Screenshot.png)
 ![Example](/demo/Example.PNG)
+
+#### Videos
+[![Demo](/demo/Screenshot.png)](https://www.youtube.com/watch?v=1JQIjRVzVYA "Demo")
