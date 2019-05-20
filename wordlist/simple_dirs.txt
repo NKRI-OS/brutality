@@ -1,0 +1,8 @@
+admin
+db
+backup
+login
+Admin
+databases
+wp-login
+wp-admin
