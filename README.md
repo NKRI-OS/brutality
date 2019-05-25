@@ -43,3 +43,8 @@ python brutality.py -u 'http://192.168.1.1/brute.php?username=admin&password=FUZ
 
 #### Videos
 [![Demo](/demo/Screenshot.png)](https://www.youtube.com/watch?v=1JQIjRVzVYA "Demo")
+
+#### ToDo
+- Smooth output
+- Export file report
+- modularization
