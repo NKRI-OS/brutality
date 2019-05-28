@@ -47,4 +47,7 @@ python brutality.py -u 'http://192.168.1.1/brute.php?username=admin&password=FUZ
 #### ToDo
 - Smooth output
 - Export file report
-- modularization
+- Modularization
+
+#### References
+- https://www.kitploit.com/2019/05/brutality-fuzzer-for-any-get-entries.html
