@@ -65,7 +65,7 @@ class PerformReq(Thread):
             self.custom = dict(self.custom)
             if custom:
                 self.custom = dict(custom)
-            for key, value in self.custom.iteritems():
+            for key, value in self.custom.items():
                 browser.headers[key] = value
             self.proxy = ''
             if proxy:
@@ -83,10 +83,10 @@ class PerformReq(Thread):
             r = browser.get(self.url)  # , verify = False)
             stop = time.time()
             total_time = str(stop - start)
-            lines = str(r.content.count('\n'))
+            lines = str(r.content.decode("utf-8").count('\n'))
             chars = len(r.content)
             code = int(r.status_code)
-            hasher = md5.new(r.content).hexdigest()
+            hasher = md5(r.content).hexdigest()
             if r.history:
                 first_status = r.history[0]
                 code = int(first_status.status_code)
